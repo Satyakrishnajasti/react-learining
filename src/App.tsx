@@ -19,6 +19,7 @@ import Ref from "./Ref.tsx";
 import Routing from "./Routing.tsx";
 import Reducer from "./Reducer.tsx";
 import UserReducer from "./UserReducer.tsx";
+import MultiState from "./MultiState.tsx";
 
 function App() {
   const fruits = [
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <>
+      <MultiState />
       <UserReducer />
       <Reducer />
       {/* <Routing /> */}
